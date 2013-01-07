@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "nexus_artifact"
   gem.require_paths = ["lib"]
   gem.version       = NexusArtifact::VERSION
+
+  gem.add_dependency('mechanize', '~> 2.5')
 end
